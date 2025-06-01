@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { useParams, useNavigate, useLocation } from "react-router-dom";
 import axios from "axios";
 import { useAuth } from "../contexts/AuthContext";
-import "../styles/ViewPoll.css";
 
 const ViewPoll = () => {
   const { id, token } = useParams();
